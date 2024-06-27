@@ -1,0 +1,23 @@
+<!-- <view style="height: 100vh;"> -->
+<view style="width: 100%;">
+  <van-cell title="最新动态" is-link value="更多" border="{{ false }}" />
+  <van-cell-group border="{{ false }}">
+    <van-cell  wx:for="{{ 3 }}"  wx:for-item="index">
+      <van-row>
+        <van-col span="14">
+          <view style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; text-overflow: ellipsis;">
+            考志愿填报“三字诀”一冲二稳三保 目前,除了部分省份的提前批、艺术批次投档,采用顺序志愿录取外,大部分批次、类别的高考录取方式都实行平行志愿录取。平行录取时,依据“分数优
+          </view>
+          <view style="text-align: left; margin-top: 10px;">
+            2024-06-30
+          </view>
+        </van-col>
+        <van-col span="8" offset="2">
+          <!-- TODO 需要规定 图片尺寸 -->
+          <image style="width: 100%; height: 80px;" src="{{ newsList[index] }}" />
+        </van-col>
+      </van-row>
+    </van-cell>
+  </van-cell-group>
+</view>
+

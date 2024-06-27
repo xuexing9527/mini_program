@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "component-banner": "../../components/banner/index",
+    "component-news-list": "../../components/news_list/index"
+  }
+}
